@@ -25,10 +25,10 @@ public class AwesomeActivity extends TabActivity {
 	private void setTabs()
 	{
 		addTab("PRIMARY", R.drawable.tab_home, PrimarySchoolActivity.class);//change to PrimarySchoolActivity
-		addTab("JUNIOR", R.drawable.tab_search, JuniorHighSchoolActivity.class);
-		addTab("ME", R.drawable.tab_search, JuniorHighSchoolActivity.class);
-		addTab("SENIOR", R.drawable.tab_home, SeniorHighSchoolActivity.class);
-		addTab("UNI", R.drawable.tab_search, JuniorHighSchoolActivity.class);
+		addTab("JUNIOR", R.drawable.tab_search, JuniorHighSchoolActivity.class);//JuniorHigh
+		addTab("ME", R.drawable.tab_search, AboutMeActivity.class);//Me
+		addTab("SENIOR", R.drawable.tab_home, SeniorHighSchoolActivity.class);//senior high
+		addTab("UNI", R.drawable.tab_search, UniversityActivity.class);//university
 	}
 	private void addTab(String labelId, int drawableId, Class<?> c)
 	{
